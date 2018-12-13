@@ -14,10 +14,13 @@ public class Taro extends Actor
      */
     public void act() 
     {
-
         if( Greenfoot.isKeyDown( "right" ) ){
             setRotation(0);
             move(1);
+        }
+        if( Greenfoot.isKeyDown("left")){
+                setRotation(0);
+                move(-1);
         }
         if( Greenfoot.isKeyDown( "down" ) ){
             setRotation(90);
