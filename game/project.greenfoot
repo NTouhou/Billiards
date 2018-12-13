@@ -1,0 +1,25 @@
+#Greenfoot project file
+class.MyWorld.image=burlap.jpg
+class.MyWorld.superclass=greenfoot.World
+mainWindow.height=546
+mainWindow.width=856
+mainWindow.x=65
+mainWindow.y=68
+package.numDependencies=0
+package.numTargets=1
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=105
+target1.editor.y=72
+target1.height=50
+target1.name=MyWorld
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=70
+target1.y=10
+version=2.7.1
+world.lastInstantiated=MyWorld
