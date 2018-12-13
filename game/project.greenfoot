@@ -1,25 +1,26 @@
-#Greenfoot project file
-class.MyWorld.image=burlap.jpg
-class.MyWorld.superclass=greenfoot.World
-mainWindow.height=546
-mainWindow.width=856
-mainWindow.x=65
-mainWindow.y=68
-package.numDependencies=0
-package.numTargets=1
+#Greenfoot properties
+#Thu Dec 13 09:50:06 JST 2018
+target1.editor.x=105
+target1.type=ClassTarget
 project.charset=UTF-8
+mainWindow.height=546
+target1.naviview.expanded=true
+version=2.7.1
+class.MyWorld.image=burlap.jpg
+target1.typeParameters=
+world.lastInstantiated=MyWorld
+class.MyWorld.superclass=greenfoot.World
+target1.height=50
+target1.width=80
+mainWindow.y=68
+mainWindow.x=65
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=105
-target1.editor.y=72
-target1.height=50
-target1.name=MyWorld
-target1.naviview.expanded=true
-target1.showInterface=false
-target1.type=ClassTarget
-target1.typeParameters=
-target1.width=80
-target1.x=70
+package.numDependencies=0
 target1.y=10
-version=2.7.1
-world.lastInstantiated=MyWorld
+target1.x=70
+package.numTargets=1
+mainWindow.width=856
+target1.name=MyWorld
+target1.showInterface=false
+target1.editor.y=72
