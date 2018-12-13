@@ -17,6 +17,11 @@ public class Taro extends Actor
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(1);
-        }// Add your action code here.
+        }
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+        }
+
     }    
 }
