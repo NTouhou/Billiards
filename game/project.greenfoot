@@ -1,22 +1,22 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=987bd787c3ca669c46fe1287bf5432008616d5cc
+>>>>>>>=77c7d8b5f70e0a3eebd130f9d2ebfdcdc82a8247
 class.MyWorld.image=burlap.jpg
 class.MyWorld.superclass=greenfoot.World
 class.Taro.image=man.png
 class.Taro.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
-mainWindow.x=318
-mainWindow.y=291
+mainWindow.x=76
+mainWindow.y=313
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=349
-target1.editor.y=264
+target1.editor.y=292
 target1.height=50
 target1.name=Taro
 target1.naviview.expanded=true
@@ -29,7 +29,7 @@ target1.y=10
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=105
-target2.editor.y=100
+target2.editor.y=128
 target2.height=50
 target2.name=MyWorld
 target2.naviview.expanded=true
