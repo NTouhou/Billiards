@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=e070e6f70182efe6f88738df7c7c644dba2def59
+>>>>>>>=f29a6ce8fabd301885c0d6fb566ddf85a83e1d21
 class.MyWorld.image=table.png
 class.MyWorld.superclass=greenfoot.World
 class.Taro.superclass=greenfoot.Actor
@@ -49,10 +49,10 @@ class.tokuten_ball9.superclass=bound_ball
 dependency1.from=ball
 dependency1.to=bound_ball
 dependency1.type=UsesDependency
-mainWindow.height=725
-mainWindow.width=1268
-mainWindow.x=98
-mainWindow.y=209
+mainWindow.height=846
+mainWindow.width=1438
+mainWindow.x=164
+mainWindow.y=170
 package.numDependencies=1
 package.numTargets=26
 project.charset=UTF-8
