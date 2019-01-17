@@ -8,12 +8,62 @@ import greenfoot.*;
  */
 public class ball extends Actor
 {
+    double speed = 0;
+    double speedlimit = 100;
+    
     /**
      * Act - do whatever the ball wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public ball(){
+        GreenfootImage myImage = getImage();
+        int myNewHeight = (int)myImage.getHeight()/10;
+        int myNewWidth = (int)myImage.getWidth()/10;
+        myImage.scale(36,36);
+    }
     public void act() 
     {
         // Add your action code here.
-    }    
+    }
+    public void kabehansya(){
+        double rads = Math.toRadians(getRotation());
+        int x = getX();
+        int y = getY();
+        
+        x+=Math.round(Math.cos(rads) * speed);        
+        y+=Math.round(Math.sin(rads) * speed);
+            
+        if (speed > 0) 
+        {
+         speed=speed-0.5;
+            
+         if (speed<=0)
+         {
+                    speed=0;
+         }
+        }
+        
+        if (y >= 579)
+        {
+            setRotation(360-getRotation());
+        }
+        
+        
+        if (y <= 0 )
+        {
+             setRotation(360-getRotation());
+        }
+            
+        
+        if (x >= 1008)
+        {
+            setRotation(180-getRotation());
+        }
+        
+        if(x <= 0)
+        {
+            setRotation(180-getRotation());
+        }
+        setLocation(x,y);
+    }
 }
