@@ -14,6 +14,6 @@ public class tokuten_ball2 extends bound_ball
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        
+    }  
 }
