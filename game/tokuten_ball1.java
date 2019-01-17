@@ -18,5 +18,6 @@ public class tokuten_ball1 extends bound_ball
     public void act() 
     {
         
-    }    
+    }  
+    
 }
