@@ -16,7 +16,7 @@ public class ball extends Actor
         GreenfootImage myImage = getImage();
         int myNewHeight = (int)myImage.getHeight()/10;
         int myNewWidth = (int)myImage.getWidth()/10;
-        myImage.scale(myNewWidth,myNewHeight);
+        myImage.scale(36,36);
     }
     public void act() 
     {
