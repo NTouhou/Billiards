@@ -8,9 +8,6 @@ import greenfoot.*;
  */
 public class MyWorld extends World
 {
-    private int height;
-    private int width;
-    
     public static shot_ball shot_ball;
     public MyWorld()
     {    
