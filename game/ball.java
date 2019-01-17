@@ -20,10 +20,13 @@ public class ball extends Actor
         int myNewHeight = (int)myImage.getHeight()/10;
         int myNewWidth = (int)myImage.getWidth()/10;
         myImage.scale(36,36);
+        
+        
     }
     public void act() 
     {
         // Add your action code here.
+
     }
     public void kabehansya(){
         double rads = Math.toRadians(getRotation());
@@ -66,4 +69,6 @@ public class ball extends Actor
         }
         setLocation(x,y);
     }
-}
+
+}    
+    
