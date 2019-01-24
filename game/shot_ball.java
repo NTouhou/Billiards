@@ -14,7 +14,7 @@ public class shot_ball extends ball
         x = getX();
         y = getY();
         if(isBallRemove(x,y) == true){
-            getWorld().removeObject(this);
+            //getWorld().removeObject(this);
             //その後ゲームオーバー処理を書く、もしくはゲームオーバーフラグみたいなのをtrueにする。
         }
         int shot = 0;
