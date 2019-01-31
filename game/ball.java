@@ -31,12 +31,12 @@ public class ball extends Actor
     
     public boolean isBallRemove(int x, int y){
         boolean p=false;
-        boolean p1 = ((x-hole1.get_X())*(x-hole1.get_X())+(y-hole1.get_Y())*(y-hole1.get_Y())) < (hole1.get_Width())*(hole1.get_Width());
-        boolean p2 = ((x-hole2.get_X())*(x-hole2.get_X())+(y-hole2.get_Y())*(y-hole2.get_Y())) < (hole2.get_Width())*(hole2.get_Width());
-        boolean p3 = ((x-hole3.get_X())*(x-hole3.get_X())+(y-hole3.get_Y())*(y-hole3.get_Y())) < (hole3.get_Width())*(hole3.get_Width());
-        boolean p4 = ((x-hole4.get_X())*(x-hole4.get_X())+(y-hole4.get_Y())*(y-hole4.get_Y())) < (hole4.get_Width())*(hole4.get_Width());
-        boolean p5 = ((x-hole5.get_X())*(x-hole5.get_X())+(y-hole5.get_Y())*(y-hole5.get_Y())) < (hole5.get_Width())*(hole5.get_Width());
-        boolean p6 = ((x-hole6.get_X())*(x-hole6.get_X())+(y-hole6.get_Y())*(y-hole6.get_Y())) < (hole6.get_Width())*(hole6.get_Width());
+        boolean p1 = ((x-hole1.get_X())*(x-hole1.get_X())+(y-hole1.get_Y())*(y-hole1.get_Y())) < (hole1.get_Width())*(hole1.get_Width()/9);
+        boolean p2 = ((x-hole2.get_X())*(x-hole2.get_X())+(y-hole2.get_Y())*(y-hole2.get_Y())) < (hole2.get_Width())*(hole2.get_Width()/9);
+        boolean p3 = ((x-hole3.get_X())*(x-hole3.get_X())+(y-hole3.get_Y())*(y-hole3.get_Y())) < (hole3.get_Width())*(hole3.get_Width()/9);
+        boolean p4 = ((x-hole4.get_X())*(x-hole4.get_X())+(y-hole4.get_Y())*(y-hole4.get_Y())) < (hole4.get_Width())*(hole4.get_Width()/9);
+        boolean p5 = ((x-hole5.get_X())*(x-hole5.get_X())+(y-hole5.get_Y())*(y-hole5.get_Y())) < (hole5.get_Width())*(hole5.get_Width()/9);
+        boolean p6 = ((x-hole6.get_X())*(x-hole6.get_X())+(y-hole6.get_Y())*(y-hole6.get_Y())) < (hole6.get_Width())*(hole6.get_Width()/9);
         if(p1||p2||p3||p4||p5||p6){
             p=true;
         }

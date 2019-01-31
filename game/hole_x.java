@@ -8,8 +8,12 @@ import greenfoot.*;
  */
 public class hole_x extends Actor
 {
+    public hole_x(){
+        GreenfootImage myImage = getImage();
+        myImage.scale(41,41);
+    }
     public void act() 
     {
-        // Add your action code here.
+        
     }    
 }
