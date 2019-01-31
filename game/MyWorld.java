@@ -30,5 +30,12 @@ public class MyWorld extends World
         addObject(new tokuten_ball13(),getWidth()/3*2+144,getHeight()/2);
         addObject(new tokuten_ball14(),getWidth()/3*2+144,getHeight()/2-36);
         addObject(new tokuten_ball15(),getWidth()/3*2+144,getHeight()/2-72);
+        
+        addObject(new hole1(),32,40);
+        addObject(new hole2(),getWidth()/2-1,21);
+        addObject(new hole3(),getWidth()-33,40);
+        addObject(new hole4(),32,getHeight()-46);
+        addObject(new hole5(),getWidth()/2-1,getHeight()-27);
+        addObject(new hole6(),getWidth()-33,getHeight()-46);
     }
 }
