@@ -14,6 +14,9 @@ public class shot_ball extends ball
         x = getX();
         y = getY();
         if(isBallRemove(x,y) == true){
+
+            //getWorld().removeObject(this);
+            //その後ゲームオーバー処理を書く、もしくはゲームオーバーフラグみたいなのをtrueにする。
             getWorld().showText( "ゲームオーバー", 100, 50 );
             Greenfoot.stop();
         }
