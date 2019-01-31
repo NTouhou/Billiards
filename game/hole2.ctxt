@@ -1,5 +1,12 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ act()
-comment0.text=\n\ Act\ -\ do\ whatever\ the\ hole2\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=1
+comment0.target=hole2()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=int\ get_X()
+comment3.params=
+comment3.target=int\ get_Y()
+comment4.params=
+comment4.target=int\ get_Width()
+numComments=5
