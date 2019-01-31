@@ -23,11 +23,21 @@ public class ball extends Actor
         
         
     }
+    
     public void act() 
     {
-        // Add your action code here.
-
+        
     }
+    
+    public boolean isBallRemove(int x, int y){
+        boolean p=false;
+        if((x<36&&y<36) || (x>1008/2-18&&x>1008/2+18&&y<36) || (x>1008-36&&y<579-36) || (x<36&&y>579-36) 
+            || (x>1008/2-18&&x>1008/2+18&&y>579-36) || (x>1008-36&&y>579-36)){
+            p=true;
+        }
+        return p;
+    }
+
     public void kabehansya(){
         double rads = Math.toRadians(getRotation());
         int x = getX();
@@ -46,7 +56,7 @@ public class ball extends Actor
          }
         }
         
-        if (y >= 579)
+        if (y >= 579-36)
         {
             setRotation(360-getRotation());
         }
@@ -58,7 +68,7 @@ public class ball extends Actor
         }
             
         
-        if (x >= 1008)
+        if (x >= 1008-36)
         {
             setRotation(180-getRotation());
         }
