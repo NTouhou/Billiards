@@ -8,7 +8,7 @@ import greenfoot.*;
  */
 public class ball extends Actor
 {
-    double speed = 0;
+    static double speed = 0;
     double speedlimit = 100;
     
     /**

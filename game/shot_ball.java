@@ -8,7 +8,7 @@ import greenfoot.*;
  */
 public class shot_ball extends ball
 {
-    int x, y;
+    static int x, y, rotation;
     public void act() 
     {
         x = getX();
@@ -46,6 +46,7 @@ public class shot_ball extends ball
                 speed=0;
             }
         }
+        rotation = getRotation();
         
         if(Greenfoot.isKeyDown("ENTER"))
         {      
@@ -58,4 +59,8 @@ public class shot_ball extends ball
             shot = 0;
         }
     }    
+    
+    public static int get_Rotation(){
+        return rotation;
+    }
 }

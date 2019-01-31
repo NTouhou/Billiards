@@ -14,6 +14,8 @@ public class MyWorld extends World
         super(1008,579, 1); 
         shot_ball = new shot_ball();
         addObject (shot_ball, getWidth()/4, getHeight()/2);
+        addObject (new cue(), getWidth()/4-185, getHeight()/2);
+        
         
         addObject(new tokuten_ball1(),getWidth()/3*2,getHeight()/2);
         addObject(new tokuten_ball2(),getWidth()/3*2+36,getHeight()/2+18);

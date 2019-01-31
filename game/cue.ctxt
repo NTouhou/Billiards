@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=void\ act()
+comment0.target=cue()
 comment1.params=
-comment1.target=int\ get_Rotation()
+comment1.target=void\ act()
 numComments=2
