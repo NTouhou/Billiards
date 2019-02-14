@@ -15,6 +15,6 @@ public class bound_ball extends ball
     
     public void act() 
     {
-        // Add your action code here.
+        
     }    
 }
